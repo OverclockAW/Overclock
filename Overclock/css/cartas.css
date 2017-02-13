@@ -1,0 +1,81 @@
+em{
+	font-weight: bold;
+}
+
+#contenedor{
+	max-height: 250px;
+	margin: auto;
+	position: relative;
+	display: inline-block;
+}
+
+.carta{
+	max-width: 172px;
+	position: relative;
+	float: left;
+
+}
+
+.imagenCarta{
+	width: 115px;
+    margin-top: 27px;
+    margin-left: 28px;
+    position: absolute;
+}
+
+.marcoCarta{
+	width: 172px;
+	position: relative;
+
+}
+
+#descripcionCarta{
+    min-width: 583px;
+    max-width: 583px;
+    max-height: 230px;
+    margin-left: 20px;
+    float: right;
+}
+
+.valoresCartas{
+	margin-top: 15px;
+	width: 400px;
+	height: 15px;
+}
+
+.crearCarta{
+	margin-left: 80px;
+	margin-top: 35px;
+	width: 200px;
+	height: 50px;
+}
+
+#camposCarta{
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+#botonesCarta{
+	width: 450px;
+	height: 50px;
+	margin-top: 40px;
+}
+.valoresCartas{
+	margin-top: 10px;
+	width: 300px;
+	height: 15px;
+}
+
+.modificarCarta{
+	width: 150px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.gestionCartas{
+	margin-left: 150px;
+	margin-top: 50px;
+	width: 520px;
+	height: 100px;
+}

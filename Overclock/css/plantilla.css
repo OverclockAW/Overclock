@@ -1,0 +1,460 @@
+body{
+	background-color: black;
+	background: url(../img/fondoMetalico.png) no-repeat center center;
+	font-family: "Tw Cen MT", sans-serif;
+	font-size: 18px;
+	margin-top: 30px;
+}
+form{
+   float:left;
+   padding:2px;
+   cursor:pointer;
+   display:block;
+   margin: 0 auto;
+   text-align:left;
+}
+
+/* ------ ANIMACIONES ------ */
+@keyframes opacidad {
+    0% {opacity: 0.1;}
+	40% {opacity: 0.1;}
+	60% {opacity: 0.7;}
+    100% {opacity: 0.1;}
+}
+
+@keyframes movAguja {
+    50% {transform: rotate(180deg);}
+}
+
+@keyframes giroRueda{
+	100% {transform: rotate(360deg);}
+}
+
+@keyframes giroRueda2{
+	100% {transform: rotate(-360deg);}
+}
+
+
+/* ------ TABLAS ------ */
+
+
+td{
+	border-collapse: collapse;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+caption{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+tr{
+	border: 1px solid black;
+}
+
+#td_fecha{
+	width: 65px;
+}
+
+#td_fase{
+	text-align: center;
+	width: 200px;
+	font-weight: bold;
+}
+
+
+/* ------ BOTONES ------ */
+button {
+	color: white;
+	border-style: solid;
+	border-image-source: url(../img/bordeBoton2.png);
+	border-image-slice: 86;
+    border-image-width: 41px;
+    border-image-outset: 6px;
+    border-image-repeat: round;
+	background: url(../img/portal4.png) center;
+	font-family: "Tw Cen MT", sans-serif;
+	font-size: 18px;
+}
+
+.gestionAdmin{
+	width: 310px;
+	height: 100px;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+#enlaces{
+	margin-left: 100px;
+}
+
+#ranking{
+	margin: 10px;
+	width: 225px;
+	height: 160px;
+	border-style: solid;
+	border-image-source: url(../img/bordeBoton2.png);
+	border-image-slice: 86;
+    border-image-width: 26px;
+    border-image-outset: 6px;
+    border-image-repeat: round;
+	background: url(../img/portal4.png) center center;
+}
+
+.botonesEnlaces, .botonesPanelIzquierdo{
+	color: white;
+	font-size: 15px;
+}
+
+.botonesEnlaces{
+	margin-left: 10px;
+	width: 120px;
+	height: 50px;
+}
+
+.botonesEnlaces:active{ /* cuando pulsas el botÃ³n */
+	font-size: 14.5px;
+}
+
+.botonesPanelIzquierdo:active{
+	font-size: 14.5px;
+}
+
+.botonesPanelIzquierdo{
+	height: 35px;
+	width: 225px;
+	margin-top: 15px;
+}
+
+
+/* ------ CAMPOS ------ */
+.camposPanelIzquierdo{
+	height: 25px;
+	width: 222px;
+	margin-top: auto;
+	background: url(../img/portal4.png) center center;
+	color: white;
+}
+
+.iconosFormularios{
+	position: absolute;
+	right: 250px;
+	margin-left: 5px;
+	width: 18px;
+	display: none;
+}
+
+input[type=text], input[type=password]{
+	background-color: white;
+	border: 2px solid grey;
+}
+
+/* ------ PANELES ------ */
+#panelIzquierdo{
+	width: 250px;
+	float: left;
+}
+
+#cosasPanelIzquierdo{
+	padding: 10px;
+	margin-top: -25px;
+}
+
+#panelDerecho{
+	float: left;
+	width: 810px;
+	margin-left: 20px;
+}
+
+/* ------ IMAGENES ------ */
+#caliz{
+	height: 130px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+/* ------ CAPA MADRE (MARCO COMÃšN) ------ */
+#capaMadre{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+
+/* ------ BANNER ------ */
+#banner{
+	position: relative;
+	width: 856px;
+	height: 210px;
+	margin: auto;
+}
+#verclock{
+    position: absolute;
+    left: 32.5%;
+    width: 300px;
+    top: -40px;
+}
+
+
+/* ------ ENCABEZADOS ------ */
+h1, h2, h3{
+	text-align: center;
+}
+
+
+/* ------ PORTAL ------ */
+.portal{
+    position: absolute;
+    left: 20.5%;
+    top: -25px;
+    width: 358px;
+}
+
+#portal2{
+	top: -73px;
+	-webkit-animation: giroRueda 15s infinite; /* Chrome, Safari, Opera */
+	animation: giroRueda 15s infinite;
+	animation-timing-function: linear;
+
+}
+
+#portal4{
+	-webkit-animation: giroRueda 1s infinite; /* Chrome, Safari, Opera */
+	animation: giroRueda 1s infinite;
+	-webkit-animation: opacidad 5s infinite; /* Chrome, Safari, Opera */
+	animation: opacidad 5s infinite;
+}
+
+
+/* ------ RELOJ ------ */
+.cogwheel{
+	position: absolute;
+	width: 100px;
+	background-color: transparent;
+}
+
+#reloj{
+	width: 100px;
+	height: 100px;
+	margin-left: 48px;
+}
+
+#o2{
+	-webkit-animation: giroRueda 10s infinite; /* Chrome, Safari, Opera */
+    animation: giroRueda2 10s infinite;
+	animation-timing-function: linear;
+
+}
+
+#cog1{
+	-webkit-animation: giroRueda 10s infinite; /* Chrome, Safari, Opera */
+	animation: giroRueda 10s infinite;
+	animation-timing-function: linear;
+}
+
+#aguja{
+	-webkit-animation: movAguja 5s infinite; /* Chrome, Safari, Opera */
+    animation: movAguja 5s infinite;
+	width: 160px;
+	height: 20px;
+	left: 323px;
+}
+
+#aguja2{
+	width: 100px;
+	-webkit-animation: movAguja 10s infinite; /* Chrome, Safari, Opera */
+	animation: movAguja 10s infinite;
+}
+
+#aguja, #aguja2{
+	margin-top: 42px;
+}
+
+
+/* ------ PANEL COMÃšN ------ */
+#cuerpo{
+	min-height: 700px;
+	border-style: solid;
+	border-image-source: url(../img/bordePanel.png);
+	border-image-slice: 300;
+	border-image-width: 50px;
+    border-image-outset: 19px;
+	border-image-repeat: round;
+	position: relative;
+	margin-top: 10px;
+	background: url(../img/metalTexture2.jpg) no-repeat center center;
+}
+
+#descripcion, #cuerpo{
+	text-align: justify;
+	padding: 20px; /* padding hacia todos los lados(right, left, top, bottom) */
+	color: black;
+}
+
+#descripcion{
+	height: 520px;
+	overflow-y: auto;
+	width: 811px;
+	margin-top: 30px;
+}
+
+#marcoAdministracion{
+	position: absolute;
+	width: inherit;
+}
+#bloqueAdministracion{
+	margin: auto;
+	height: 600px;
+}
+
+/*FORMULARIO REGISTRO*/
+#bloqueFormulario{
+	margin: auto;
+	width: 320px;
+	height: 320px;
+}
+
+#formReg{
+	margin: 0 auto;
+	width: 320px;
+}
+
+.registro{
+	float: right;
+	width: 120px;
+}
+
+.regButton{
+	margin-left: 95px;
+	margin-top: 15px;
+}
+
+
+
+.rojo{
+    color: #a52a2a;
+}
+.dorado{
+	bottom: 100px;
+	position: relative;
+	top: 300px;
+}
+
+/* ------ LISTAS ------ */
+.lista_detalles li{ /* li en detalles.html */
+	margin-top: 12px;
+}
+
+
+/* ------ TEXT AREA ------ (ACTUALMENTE EN DESUSO, NO USAMOS NINGÃšN TEXTAREA TODAVÃ�A)*/
+#areaConsulta{
+	max-width: 95%;
+	width: 700px;
+	height: 300px;
+}
+
+
+/* ------ PANEL DE INFORMACIÃ“N CON SCROLL------ */
+.info{
+	padding-left: 10px;
+	padding-right: 10px;
+	/*overflow-y: scroll;*/
+	margin-top: 10px;
+	border: 1px solid black;
+	height: 150px;
+	width: 55%;
+}
+
+
+/* ------ CONFIGURACIÃ“N DE INFORMACIÃ“N DE MIEMBRO ------ */
+.imagenMiembro{
+	margin-top: 25px;
+	width: 100px;
+	height: 100px;
+}
+.infoMiembro{
+	float: right;
+	padding-right: 10px;
+	width: 70%;
+	height: 100%;
+	padding-bottom: 10px;
+	max-height: 100px;
+}
+
+/* ------ RANKING ------ */
+#tablaRanking tbody{
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 500px;
+	border-style: solid;
+	border-image-source: url(../img/bordeBoton.png);
+	border-image-slice: 86;
+	border-image-width: 41px;
+	border-image-outset: 11px;
+	border-image-repeat: round;
+	background: url(../img/paperTexture.jpg) no-repeat;
+
+}
+
+th {
+  text-align: center;
+	padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+#usuarios tbody, #cartas tbody{
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 500px;
+	border: 2px solid black;
+}
+.celdaTipo{
+	width: 80px;
+}
+.celdasCuadradas{
+	width: 50px;
+	border: none;
+}
+.celdaNormal{
+	min-width: 170px;
+	text-align: center;
+}
+.colspan2{
+	min-width: 390px;
+}
+#cabeceraTabla{
+	position: relative;
+}
+
+.nombreColumna{
+	min-width: 174px;
+}
+
+/* ------ ESTILOS DE VISTAS -------*/
+.panelVista{
+	position: float;
+	height: 390px;
+}
+.vista{
+	margin-top: 10px;
+	float: left;
+	width: 470px;
+	height: 340px;
+}
+#infoVista{
+	float: right;
+	height: 340px;
+	width: 310px;
+}
+
+
+#error{
+	margin-top: 75px;
+}

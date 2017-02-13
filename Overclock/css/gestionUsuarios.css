@@ -1,0 +1,22 @@
+
+#panelScroll{
+	margin-top: 20px;
+}
+
+#botonFiltrar, #admin{
+	margin-left: 15px;
+	position: relative;
+}
+
+.celdaBaneado{
+	width: 50px;
+}
+.crearAdmin{
+	margin-left: 10px;
+}
+.gestionUser{
+	margin-top: 25px;
+	margin-left: 115px;
+	width: 240px;
+	height: 35px;
+}

@@ -1,0 +1,82 @@
+
+#cajaAdmin{
+	margin-left: 140px;
+	margin-top: 80px;
+}
+
+.partida{
+	margin-top: 175px;
+	width: 300px;
+	height: 100px;
+	font-size: 30px;
+}
+
+.modButton{
+	width: 150px;
+	height: 75px;
+	margin-top: 50px;
+	margin-left: 75px;
+}
+
+/* Nueva cuenta */
+.user, .email, .password, .password2{
+	width: 285px;
+	height: 15px;
+}
+
+.createButton{
+	width: 150px;
+	height: 75px;
+	margin-top: 30px;
+	margin-left: 75px;
+}
+/* Nuevo admin */
+
+.botonAtras{
+	margin-left: 270px;
+	margin-top: 100px;
+	width: 200px;
+	height: 100px;
+}
+
+/*popup*/
+#opacidad{
+    position: fixed;
+    /* width: 102%; */
+    /* height: 100.2%; */
+    background-color: black;
+    opacity: 0.0;
+    z-index: -20;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    /* margin-left: -5px; */
+    /* margin-top: -5px; */
+}
+#marcoConfirmar{
+	position: absolute;
+	width: 811px;
+	display: none;
+	margin-top: 10%;
+}
+#confirmar{
+	margin: auto;
+	width: 300px;
+	height: 250px;
+	text-align: center;
+	box-shadow: 0px 20px 40px black;
+	border-style: solid;
+    border-image-source: url(../img/bordeBoton.png);
+    border-image-slice: 86;
+    border-image-width: 41px;
+    border-image-outset: 11px;
+    border-image-repeat: round;
+    background: url(../img/paperTexture.jpg) no-repeat;
+}
+#cancelar{
+	margin-top: 30px;
+}
+#comenzar{
+	display: none;
+}
